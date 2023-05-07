@@ -1,0 +1,7 @@
+original_vector <- c(5, 15, 25, 35, 45)
+normalized_vector <- (original_vector - min(original_vector)) / (max(original_vector) - min(original_vector))
+print(normalized_vector)
+
+original_vector <- c(123, 200, 304, 60, 50,60,70,80,45,50)
+normalized_vector <- (original_vector - min(original_vector)) / (max(original_vector) - min(original_vector))
+print(normalized_vector)
